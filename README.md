@@ -46,180 +46,21 @@ PINGUIM-XMAS - The most advanced christmas script built for QBox.
 2. Add to your `server.cfg`:
 3. Configure your `Config.lua`:
    * Set `Locale` (`"en"` or `"pt"`)
-   * Choose your `InventorySystem` (`"ox" You can only choose “ox” because qb inventory and qb target do not function.`)
-   * Adjust cooldown, reward chance, and NPC models as desired
 4. Go to ox_inventory in the data\items.lua and put this:
 ```lua
-['halloween-candycorn'] = {
-    label = 'Candy Corn',
-    weight = 100,
-    client = {
-        status = { hunger = 250000 },
-        anim = 'eating',
-        prop = 'ramen',
-        usetime = 3000,
-        notification = 'You enjoyed a candy corn!',
-        image = 'halloween-candycorn.png'
+
+['snowman'] = {
+        label = 'Snowman',
+        weight = 500,
+        stack = true,
+        close = true,
     },
-},
 
-['halloween-chocolateskull'] = {
-    label = 'Chocolate Skull',
-    weight = 100,
-    client = {
-        status = { hunger = 250000 },
-        anim = 'eating',
-        prop = 'ramen',
-        usetime = 3000,
-        notification = 'You ate a chocolate skull!',
-        image = 'halloween-chocolateskull.png'
+    ['xmastree'] = {
+        label = 'Christmas Tree',
+        weight = 1,
+        stack = true,
+        close = true,
     },
-},
-
-['halloween-ghostmarshmallow'] = {
-    label = 'Ghost Marshmallow',
-    weight = 100,
-    client = {
-        status = { hunger = 250000 },
-        anim = 'eating',
-        prop = 'ramen',
-        usetime = 3000,
-        notification = 'You ate a ghost-shaped marshmallow!',
-        image = 'halloween-ghostmarshmallow.png'
-    },
-},
-
-['halloween-caramelapple'] = {
-    label = 'Caramel Apple',
-    weight = 100,
-    client = {
-        status = { hunger = 250000 },
-        anim = 'eating',
-        prop = 'ramen',
-        usetime = 3000,
-        notification = 'You enjoyed a caramel apple!',
-        image = 'halloween-caramelapple.png'
-    },
-},
-
-
-['halloween-licorice'] = {
-    label = 'Licorice',
-    weight = 100,
-    client = {
-        status = { hunger = 250000 },
-        anim = 'eating',
-        prop = 'ramen',
-        usetime = 3000,
-        notification = 'You chewed on some licorice!',
-        image = 'halloween-licorice.png'
-    },
-},
-
-['halloween-eyeballcandy'] = {
-    label = 'Eyeball Candy',
-    weight = 100,
-    client = {
-        status = { hunger = 250000 },
-        anim = 'eating',
-        prop = 'ramen',
-        usetime = 3000,
-        notification = 'You ate some eyeball candy!',
-        image = 'halloween-eyeballcandy.png'
-    },
-},
-
-['halloween-witchsbrew'] = {
-    label = "Witch's Brew",
-    weight = 120,
-    client = {
-        status = { thirst = 250000 },
-        anim = 'drinking',
-        prop = 'cup',
-        usetime = 3000,
-        notification = "You drank some Witch's Brew... spooky!",
-        image = 'halloween-witchsbrew.png'
-    },
-},
-
-['halloween-caramelpopcorn'] = {
-    label = 'Caramel Popcorn',
-    weight = 100,
-    client = {
-        status = { hunger = 250000 },
-        anim = 'eating',
-        prop = 'ramen',
-        usetime = 3000,
-        notification = 'You enjoyed some caramel popcorn!',
-        image = 'halloween-caramelpopcorn.png'
-    },
-},
-
-['halloween-pumpkinlollipop'] = {
-    label = 'Pumpkin Lollipop',
-    weight = 100,
-    client = {
-        status = { hunger = 250000 },
-        anim = 'eating',
-        prop = 'ramen',
-        usetime = 3000,
-        notification = 'You licked a pumpkin lollipop!',
-        image = 'halloween-pumpkinlollipop.png'
-    },
-},
-
-['halloween-sugarspider'] = {
-    label = 'Sugar Spider',
-    weight = 100,
-    client = {
-        status = { hunger = 250000 },
-        anim = 'eating',
-        prop = 'ramen',
-        usetime = 3000,
-        notification = 'You ate a sugar spider!',
-        image = 'halloween-sugarspider.png'
-    },
-},
-
-
-['halloween-sweetfangs'] = {
-    label = 'Sweet Fangs',
-    weight = 100,
-    client = {
-        status = { hunger = 250000 },
-        anim = 'eating',
-        prop = 'ramen',
-        usetime = 3000,
-        notification = 'You bit into some sweet fangs!',
-        image = 'halloween-sweetfangs.png'
-    },
-},
-
-
-['halloween-vampireblood'] = {
-    label = 'Vampire Blood',
-    weight = 100,
-    client = {
-        status = { thirst = 250000 },
-        anim = 'drinking',
-        prop = 'cup',
-        usetime = 3000,
-        notification = 'You drank some Vampire Blood... deliciously eerie!',
-        image = 'halloween-vampireblood.png'
-    },
-},
-
-['halloween-ghostlygummies'] = {
-    label = 'Ghostly Gummies',
-    weight = 100,
-    client = {
-        status = { hunger = 250000 },
-        anim = 'eating',
-        prop = 'ramen',
-        usetime = 3000,
-        notification = 'You chewed on some ghostly gummies!',
-        image = 'halloween-ghostlygummies.png'
-    },
-},
 
 ```
