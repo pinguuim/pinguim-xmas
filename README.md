@@ -46,7 +46,7 @@ PINGUIM-XMAS - The most advanced christmas script built for QBox.
 2. Add to your `server.cfg`:
 3. Configure your `Config.lua`:
    * Set `Locale` (`"en"` or `"pt"`)
-4. Go to ox_inventory in the data\items.lua and put this:
+4. Go to ox_inventory in the `data\items.lua` and put this:
 ```lua
 
 ['snowman'] = {
@@ -64,3 +64,10 @@ PINGUIM-XMAS - The most advanced christmas script built for QBox.
     },
 
 ```
+
+5. Go to ox_inventory in the web/images and put the images in the `ITEM IMAGE` folder.
+6. Inside the `sql` folder, double-click on `pinguim_xmas.sql` and when heidsql opens, click on the blue triangle button as shown in the image below.
+<img width="996" height="66" alt="image" src="https://github.com/user-attachments/assets/a24859c0-1ce6-490c-96a6-77d52f6aeee3" />
+7. Then click the green button below to update.
+<img width="996" height="66" alt="image" src="https://github.com/user-attachments/assets/4d6211f8-3ae1-41c3-9c16-2b7d1573822b" />
+8. Alright, SQL, Config, and Items are already set up. Just start the server and enjoy. MERRY CHRISTMAS!
