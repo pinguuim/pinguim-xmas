@@ -1,0 +1,14 @@
+{
+  "wait_seconds": "Wait %d seconds",
+  "item_used": "You picked up a snowball!",
+  "cooldown_done": "Cooldown finished! You can use it again.",
+  "remove_success": "Decoration removed successfully.",
+  "remove_none": "No snowman nearby",
+  "craft_success": "You crafted a snowman!",
+  "craft_fail": "You don't have the required items!",
+  "shop_open": "Open shop",
+  "place_help": "[ARROWS] Move    \n[Q/R] Rotate    \n[Scroll] Height   \n[ENTER] Place   \n[BACKSPACE] Cancel    \nTo remove the snowman, type /removechristmas.",
+  "shopName": "Christmas Shop",
+  "craft_snowman": "Crafting Snowman...",
+  "craft_tree": "Crafting Christmas Tree..."
+}

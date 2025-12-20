@@ -1,0 +1,14 @@
+{
+  "wait_seconds": "Aguarde %d segundos",
+  "item_used": "Pegaste uma bola de neve!",
+  "cooldown_done": "Já podes pegar outra bola de neve",
+  "remove_success": "Decoração apagada com sucesso.",
+  "remove_none": "Nenhum boneco de neve por perto",
+  "craft_success": "Criaste um boneco de neve!",
+  "craft_fail": "Não tens os itens necessários!",
+  "shop_open": "Abrir loja",
+  "place_help": "[ARROWS] Mover     \n[Q/R] Rodar    \n[Scroll] Altura      \n[ENTER] Colocar       \n[BACKSPACE] Cancelar      \nPara remover, usa /removechristmas",
+  "shopName": "Mercado de Natal",
+  "craft_snowman": "Crafting Snowman...",
+  "craft_tree": "Crafting Christmas Tree..."
+}
