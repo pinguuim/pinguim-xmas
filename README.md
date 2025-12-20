@@ -4,7 +4,7 @@ PINGUIM-XMAS - The most advanced christmas script built for QBox.
 # Preview
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/554a73fe-7124-4eed-adda-f929e2eff05d" />
 
-
+[Youtube Link Preview](https://www.youtube.com/watch?v=gIHPNQjaNbE)
 ## Features:
 
 * Fully interactive Christmas decorations (snowmen, Xmas trees)
@@ -18,7 +18,7 @@ PINGUIM-XMAS - The most advanced christmas script built for QBox.
 
 * Useable items for placing snowmen (`snowman`) and Xmas trees (`xmastree`)
 * Interactive Christmas shop with NPC and blip
-* Fully compatible with **QBCore**, **QBox**, and **OX Inventory**
+* Fully compatible with **QBox**, and **OX Inventory**
 * Multi-language support with dynamic locale loading (`locales/*.json`)
 * Easy to add new languages (`en.json`, `pt.json`) with automatic English fallback
 * Cool NPC animations for shops and deer placement for a festive environment
