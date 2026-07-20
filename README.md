@@ -1,5 +1,5 @@
 # Pinguim Christmas 🎅
-PINGUIM-XMAS - The most advanced christmas script built for QBox. 
+PINGUIM-XMAS - The most simple christmas script. 
 
 # Preview
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/554a73fe-7124-4eed-adda-f929e2eff05d" />
